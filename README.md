@@ -1,4 +1,4 @@
-# WebChatroom
+# Chatroom
 
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg) ![Flask](https://img.shields.io/badge/flask-framework-blue.svg) ![License](https://img.shields.io/badge/license-MIT%20or%20Apache%202.0-blue.svg)
 
@@ -7,16 +7,6 @@
 ## 项目简介
 
 这是一个轻量级的网页聊天室应用，后端使用 Python Flask 框架，前端使用 HTML、CSS 和原生 JavaScript。数据存储采用 SQLite 数据库，每个聊天室对应一个独立的数据库文件。项目实现了基本的聊天功能，包括发送消息、加载历史消息（支持分页和上拉加载）、以及一个简易的在线人数统计（通过心跳包实现）。
-
-[![](example/example.png)]([超链接地址](https://webchatroom.dimeta.top/githubreadme/room]))
-
----
-
-## 在线 Demo
-
-你可以访问以下地址体验在线 Demo：
-
-[https://webchatroom.dimeta.top/githubreadme/room](https://webchatroom.dimeta.top/githubreadme/room)
 
 ---
 
@@ -43,21 +33,6 @@
     *   集成 `DOMPurify` 防止 XSS 攻击。
     *   提供简单的表情插入功能。
     *   通过心跳包机制告知后端用户在线状态。
-
----
-
-## 项目结构
-
-```
-.
-├── instance/             # 存放各个聊天室的 SQLite 数据库文件
-├── static/
-│   ├── chat.css          # 聊天室页面样式
-│   └── chat.js           # 聊天室前端逻辑
-├── templates/
-│   └── room.html         # 聊天室页面 HTML 模板
-└── run.py                # Flask 应用主文件，包含后端路由和逻辑
-```
 
 ---
 
@@ -102,23 +77,9 @@
 
 ---
 
-## 贡献
-
-欢迎提交 Pull Request 或 Issue。
-
----
-
-## 许可证
-
-MIT
-
----
-
 ## 作为组件嵌入其他网页
 
 本项目可以将聊天室作为一个可拖动的组件嵌入到任何其他网页中。这对于在你的博客、网站或其他应用中提供一个简单的聊天功能非常有用。
-
-Example：[洛元の小屋](https://blog.dimeta.top/)
 
 ### 嵌入方法
 
