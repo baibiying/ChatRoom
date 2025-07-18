@@ -1,4 +1,4 @@
-# Chatroom
+# ChatRoom
 
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg) ![Flask](https://img.shields.io/badge/flask-framework-blue.svg) ![License](https://img.shields.io/badge/license-MIT%20or%20Apache%202.0-blue.svg)
 
